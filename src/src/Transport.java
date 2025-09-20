@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Transport {
+public interface Transport {
+    void deliver();
 }

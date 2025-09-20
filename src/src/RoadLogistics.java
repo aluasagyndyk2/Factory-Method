@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class RoadLogistics {
+public class RoadLogistics extends Logistics {
+    @Override
+    protected Transport createTransport() {
+        return new Truck();
+    }
 }
